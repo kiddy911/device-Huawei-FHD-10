@@ -1,0 +1,12 @@
+#
+# system.prop for MediaPad 10 FHD
+#
+rild.libpath=/system/lib/libbalong-ril.so
+rild.libargs=-d /dev/ttyUSB0
+rild.libPhonePath=/system/lib/libbalong-phone-ril.so
+audioril.lib=/system/lib/libhuawei-audio-ril.so
+ro.config.fm_type=libbcmfm_if
+
+ro.config.pppoe_enable=1
+ro.config.KeyPassToUser=true
+ro.config.keypasstouser=true
